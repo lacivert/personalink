@@ -9,6 +9,59 @@ export default {
   ],
   theme: {
   	extend: {
+      typography: (theme: (path: string) => any) => ({
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': theme('colors.foreground / 1'),
+            '--tw-prose-headings': theme('colors.foreground / 1'),
+            '--tw-prose-lead': theme('colors.muted.foreground / 1'),
+            '--tw-prose-links': theme('colors.primary / 1'),
+            '--tw-prose-bold': theme('colors.foreground / 1'),
+            '--tw-prose-counters': theme('colors.muted.foreground / 1'),
+            '--tw-prose-bullets': theme('colors.primary / 1'),
+            '--tw-prose-hr': theme('colors.border / 1'),
+            '--tw-prose-quotes': theme('colors.foreground / 1'),
+            '--tw-prose-quote-borders': theme('colors.primary / 1'),
+            '--tw-prose-captions': theme('colors.muted.foreground / 1'),
+            '--tw-prose-code': theme('colors.foreground / 1'),
+            '--tw-prose-pre-code': theme('colors.foreground / 1'),
+            '--tw-prose-pre-bg': theme('colors.secondary / 1'),
+            '--tw-prose-th-borders': theme('colors.border / 1'),
+            '--tw-prose-td-borders': theme('colors.border / 1'),
+            '--tw-prose-invert-body': theme('colors.foreground / 1'), // Assuming foreground is light in dark mode
+            '--tw-prose-invert-headings': theme('colors.foreground / 1'),
+            '--tw-prose-invert-lead': theme('colors.muted.foreground / 1'),
+            '--tw-prose-invert-links': theme('colors.primary / 1'),
+            '--tw-prose-invert-bold': theme('colors.foreground / 1'),
+            '--tw-prose-invert-counters': theme('colors.muted.foreground / 1'),
+            '--tw-prose-invert-bullets': theme('colors.primary / 1'),
+            '--tw-prose-invert-hr': theme('colors.border / 1'),
+            '--tw-prose-invert-quotes': theme('colors.foreground / 1'),
+            '--tw-prose-invert-quote-borders': theme('colors.primary / 1'),
+            '--tw-prose-invert-captions': theme('colors.muted.foreground / 1'),
+            '--tw-prose-invert-code': theme('colors.foreground / 1'), // Code block text color in dark mode
+            '--tw-prose-invert-pre-code': theme('colors.foreground / 1'), // Code block text color in dark mode
+            '--tw-prose-invert-pre-bg': 'hsl(var(--secondary))', // Code block background in dark mode
+            '--tw-prose-invert-th-borders': theme('colors.border / 1'),
+            '--tw-prose-invert-td-borders': theme('colors.border / 1'),
+            a: {
+              fontWeight: '500',
+            },
+            'blockquote p:first-of-type::before': null, // remove default quotes
+            'blockquote p:last-of-type::after': null, // remove default quotes
+          },
+        },
+        teal: {
+            css: {
+              '--tw-prose-links': 'hsl(var(--primary))',
+              '--tw-prose-invert-links': 'hsl(var(--primary))',
+              '--tw-prose-bullets': 'hsl(var(--primary))',
+              '--tw-prose-invert-bullets': 'hsl(var(--primary))',
+              '--tw-prose-quote-borders': 'hsl(var(--primary))',
+              '--tw-prose-invert-quote-borders': 'hsl(var(--primary))',
+            },
+          },
+      }),
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -90,5 +143,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require('@tailwindcss/typography')],
 } satisfies Config;
