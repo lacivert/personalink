@@ -32,7 +32,7 @@ export default function HomePage() {
         <div className="mx-auto mb-12 max-w-xl">
            <Image 
             src="https://picsum.photos/seed/avatar/128/128" 
-            alt="Alex Persona" 
+            alt="Yasin Okumus" 
             width={128} 
             height={128} 
             className="mx-auto mb-6 rounded-full shadow-lg"
@@ -42,7 +42,7 @@ export default function HomePage() {
             Welcome to PersonaLink
           </h1>
           <p className="mb-8 text-lg text-muted-foreground sm:text-xl">
-            I&apos;m Alex Persona, a passionate developer and lifelong learner. This is my personal space to share my journey, insights, and favorite resources.
+            I&apos;m Yasin Okumus, a passionate developer and lifelong learner. This is my personal space to share my journey, insights, and favorite resources.
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Button asChild size="lg">
@@ -87,3 +87,4 @@ export default function HomePage() {
     </div>
   );
 }
+
