@@ -1,9 +1,9 @@
+
 import { placeholderCVData } from '@/lib/placeholder-data';
 import type { CVData, CVExperience, CVEducation, CVSkill, CVProject } from '@/types';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Mail, Phone, Linkedin, Github, Link as LinkIcon, Globe, Briefcase, GraduationCap, Lightbulb, PenToolIcon } from 'lucide-react';
-import Image from 'next/image';
 
 const Section: React.FC<{ title: string; icon: React.ElementType; children: React.ReactNode }> = ({ title, icon: Icon, children }) => (
   <section className="mb-8">
@@ -34,11 +34,11 @@ export default function CVPage() {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12 md:py-16">
       <header className="mb-12 text-center md:text-left md:flex md:items-center md:gap-8">
-        <Image 
-          src="https://picsum.photos/seed/cvavatar/150/150" 
-          alt={cv.name} 
-          width={150} 
-          height={150} 
+        <img
+          src="https://picsum.photos/seed/cvavatar/150/150"
+          alt={cv.name}
+          width={150}
+          height={150}
           className="mx-auto md:mx-0 mb-6 md:mb-0 rounded-full shadow-xl border-4 border-primary/20"
           data-ai-hint="professional portrait"
         />

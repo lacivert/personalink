@@ -1,7 +1,7 @@
+
 import { placeholderBlogPosts } from '@/lib/placeholder-data';
 import type { BlogPost } from '@/types';
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -54,13 +54,12 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           </div>
           {post.imageUrl && (
             <div className="my-8 overflow-hidden rounded-lg shadow-lg">
-              <Image
+              <img
                 src={post.imageUrl}
                 alt={post.imageAlt || post.title}
                 width={1200}
                 height={600}
                 className="h-auto w-full object-cover"
-                priority // Prioritize loading the main blog image
                 data-ai-hint={post.imageHint || "article main image"}
               />
             </div>

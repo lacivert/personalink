@@ -1,8 +1,8 @@
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, FileText, Newspaper, Link as LinkIcon } from 'lucide-react';
-import Image from 'next/image';
 
 export default function HomePage() {
   const features = [
@@ -31,11 +31,11 @@ export default function HomePage() {
     <div className="container mx-auto px-4 py-12 md:py-20">
       <section className="text-center">
         <div className="mx-auto mb-12 max-w-xl">
-           <Image 
-            src="https://picsum.photos/seed/avatar/128/128" 
-            alt="Yasin Okumus" 
-            width={128} 
-            height={128} 
+           <img
+            src="https://picsum.photos/seed/avatar/128/128"
+            alt="Yasin Okumus"
+            width={128}
+            height={128}
             className="mx-auto mb-6 rounded-full shadow-lg"
             data-ai-hint="professional avatar"
           />
@@ -53,7 +53,7 @@ export default function HomePage() {
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link href="/cv">
-                View My CV 
+                View My CV
               </Link>
             </Button>
           </div>
@@ -88,4 +88,3 @@ export default function HomePage() {
     </div>
   );
 }
-

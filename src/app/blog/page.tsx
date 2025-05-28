@@ -1,5 +1,5 @@
+
 import Link from 'next/link';
-import Image from 'next/image';
 import { placeholderBlogPosts } from '@/lib/placeholder-data';
 import type { BlogPost } from '@/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -27,7 +27,7 @@ export default function BlogPage() {
           <Card key={post.slug} className="flex transform flex-col overflow-hidden shadow-lg transition-all hover:shadow-xl">
             {post.imageUrl && (
               <Link href={`/blog/${post.slug}`} className="block">
-                <Image
+                <img
                   src={post.imageUrl}
                   alt={post.imageAlt || post.title}
                   width={800}

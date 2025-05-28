@@ -110,7 +110,7 @@ export const navItems = [
 
 export const socialLinks = [
   { href: "https://github.com/lacivert", label: "GitHub", icon: Github },
-  { href: "https://linkedin.com/in/yasinokumus", label: "LinkedIn", icon: Linkedin },
+  { href: "https://linkedin.com/in/okumus", label: "LinkedIn", icon: Linkedin },
   { href: "https://twitter.com/yasinokumus", label: "Twitter", icon: Twitter },
 ];
 
