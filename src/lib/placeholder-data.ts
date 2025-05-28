@@ -10,7 +10,7 @@ export const placeholderCVData: CVData = {
     email: "yasin.okumus@example.com",
     phone: "+1 (555) 123-4567",
     linkedin: "linkedin.com/in/yasinokumus",
-    github: "github.com/yasinokumus",
+    github: "github.com/lacivert",
     website: "yasinokumus.dev"
   },
   experience: [
@@ -38,13 +38,13 @@ export const placeholderCVData: CVData = {
     { id: "skill14", name: "Agile Methodologies", category: "Project Management" },
   ],
   projects: [
-    { id: "proj1", name: "Personal Portfolio Website", description: "This very website, built with Next.js, Tailwind CSS, and ShadCN UI.", technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI"], link: "https://github.com/yasinokumus/personallink" },
-    { id: "proj2", name: "Task Management App", description: "A full-stack task management application with user authentication and real-time updates.", technologies: ["React", "Node.js", "MongoDB", "Socket.io"], link: "https://github.com/yasinokumus/taskmaster" },
+    { id: "proj1", name: "Personal Portfolio Website", description: "This very website, built with Next.js, Tailwind CSS, and ShadCN UI.", technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI"], link: "https://github.com/lacivert/personallink" },
+    { id: "proj2", name: "Task Management App", description: "A full-stack task management application with user authentication and real-time updates.", technologies: ["React", "Node.js", "MongoDB", "Socket.io"], link: "https://github.com/lacivert/taskmaster" },
   ]
 };
 
 export const placeholderLinks: LinkItem[] = [
-  { id: "link1", title: "My GitHub", url: "https://github.com/yasinokumus", description: "Check out my projects and contributions.", icon: Github, category: "Professional" },
+  { id: "link1", title: "My GitHub", url: "https://github.com/lacivert", description: "Check out my projects and contributions.", icon: Github, category: "Professional" },
   { id: "link2", title: "My LinkedIn", url: "https://linkedin.com/in/yasinokumus", description: "Connect with me professionally.", icon: Linkedin, category: "Professional" },
   { id: "link3", title: "My Twitter / X", url: "https://twitter.com/yasinokumus", description: "Follow my thoughts and updates.", icon: Twitter, category: "Social" },
   { id: "link4", title: "Next.js Documentation", url: "https://nextjs.org/docs", description: "The React Framework for Production.", icon: BookOpen, category: "Resources" },
@@ -109,7 +109,7 @@ export const navItems = [
 ];
 
 export const socialLinks = [
-  { href: "https://github.com/yasinokumus", label: "GitHub", icon: Github },
+  { href: "https://github.com/lacivert", label: "GitHub", icon: Github },
   { href: "https://linkedin.com/in/yasinokumus", label: "LinkedIn", icon: Linkedin },
   { href: "https://twitter.com/yasinokumus", label: "Twitter", icon: Twitter },
 ];
