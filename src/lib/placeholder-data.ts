@@ -44,7 +44,7 @@ export const placeholderCVData: CVData = {
 };
 
 export const placeholderLinks: LinkItem[] = [
-  { id: "link1", title: "My GitHub", url: "https://github.com/lacivert", description: "Check out my projects and contributions.", icon: Github, category: "Professional" },
+  { id: "link1", title: "My GitHub", url: "github.com/lacivert", description: "Check out my projects and contributions.", icon: Github, category: "Professional" },
   { id: "link2", title: "My LinkedIn", url: "https://linkedin.com/in/yasinokumus", description: "Connect with me professionally.", icon: Linkedin, category: "Professional" },
   { id: "link3", title: "My Twitter / X", url: "https://twitter.com/yasinokumus", description: "Follow my thoughts and updates.", icon: Twitter, category: "Social" },
   { id: "link4", title: "Next.js Documentation", url: "https://nextjs.org/docs", description: "The React Framework for Production.", icon: BookOpen, category: "Resources" },
