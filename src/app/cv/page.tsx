@@ -2,7 +2,7 @@ import { placeholderCVData } from '@/lib/placeholder-data';
 import type { CVData, CVExperience, CVEducation, CVSkill, CVProject } from '@/types';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Mail, Phone, Linkedin, Github, Link as LinkIcon, Globe, Briefcase, GraduationCap, Lightbulb, Tool } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Link as LinkIcon, Globe, Briefcase, GraduationCap, Lightbulb, PenToolIcon } from 'lucide-react';
 import Image from 'next/image';
 
 const Section: React.FC<{ title: string; icon: React.ElementType; children: React.ReactNode }> = ({ title, icon: Icon, children }) => (
@@ -61,7 +61,7 @@ export default function CVPage() {
             </div>
           </Section>
 
-          <Section title="Skills" icon={Tool}>
+          <Section title="Skills" icon={PenToolIcon}>
             {Object.entries(cv.skills.reduce((acc, skill) => {
               if (!acc[skill.category]) acc[skill.category] = [];
               acc[skill.category].push(skill);
@@ -147,4 +147,3 @@ export default function CVPage() {
     </div>
   );
 }
-
