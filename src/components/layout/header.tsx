@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from 'next/link';
@@ -50,7 +51,7 @@ export function Header() {
           <Logo />
         </Link>
 
-        <nav className="hidden items-center space-x-2 md:flex">
+        <nav className="hidden flex-grow items-center justify-center space-x-2 md:flex">
           {navItems.map((item) => (
             <NavLink key={item.href} {...item} />
           ))}
