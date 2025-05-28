@@ -1,11 +1,11 @@
 
 import type { CVData, LinkItem, BlogPost } from '@/types';
-import { Github, Linkedin, Twitter, BookOpen, Briefcase, Code, Coffee, Dribbble, ExternalLink, FileText, GraduationCap, HardDrive, Home, Link, Mail, Newspaper, Rss, User, Youtube, Zap } from 'lucide-react';
+import { Github, Linkedin, Twitter, BookOpen, Briefcase, Code, Coffee, Dribbble, ExternalLink, FileText, GraduationCap, HardDrive, Home, Link, Mail, Newspaper, Rss, User, Youtube, Zap, PenToolIcon } from 'lucide-react';
 
 export const placeholderCVData: CVData = {
   name: "Yasin Okumus",
   title: "Full Stack Developer & UI/UX Enthusiast",
-  summary: "A highly motivated and results-oriented Full Stack Developer with 5+ years of experience in designing, developing, and deploying web applications. Passionate about creating intuitive user experiences and leveraging modern technologies to solve complex problems. Proven ability to work effectively in agile environments and collaborate with cross-functional teams.",
+  summary: "A highly motivated and results-oriented Full Stack Developer with +15 years of experience in designing, developing, and deploying web applications. Passionate about creating intuitive user experiences and leveraging modern technologies to solve complex problems. Proven ability to work effectively in agile environments and collaborate with cross-functional teams.",
   contact: {
     email: "yasin.okumus@example.com",
     phone: "+1 (555) 123-4567",
