@@ -114,5 +114,4 @@ export const socialLinks = [
   { href: "https://twitter.com/yasinokumus", label: "Twitter", icon: Twitter },
 ];
 
-
     
