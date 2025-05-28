@@ -9,7 +9,7 @@ export const placeholderCVData: CVData = {
   contact: {
     email: "yasin.okumus@example.com",
     phone: "+1 (555) 123-4567",
-    linkedin: "linkedin.com/in/yasinokumus",
+    linkedin: "linkedin.com/in/okumus",
     github: "github.com/lacivert",
     website: "yasinokumus.dev"
   },
@@ -71,7 +71,7 @@ export const placeholderBlogPosts: BlogPost[] = [
     content: "<article class='prose dark:prose-invert prose-teal max-w-none'><p>Next.js 15 is here, and it brings a host of exciting new features and improvements. In this post, we'll walk through the process of creating a new Next.js 15 application, explore some of the key changes, and build a simple example page.</p><h2>Installation</h2><p>To get started, you'll need Node.js installed on your system. Then, you can create a new Next.js app using the following command:</p><pre><code>npx create-next-app@latest my-next15-app</code></pre><h2>Key Features</h2><ul><li>Improved Turbopack performance</li><li>New experimental React Compiler</li><li>Enhanced Server Actions</li></ul><p>Stay tuned for more in-depth tutorials on leveraging these features!</p></article>",
     author: "Yasin Okumus",
     tags: ["Next.js", "JavaScript", "Web Development", "Tutorial"],
-    imageUrl: "https://picsum.photos/seed/nextjs15/800/400",
+    imageUrl: "https://placehold.co/800x400.png",
     imageAlt: "Abstract representation of Next.js 15",
     imageHint: "technology abstract"
   },
@@ -83,7 +83,7 @@ export const placeholderBlogPosts: BlogPost[] = [
     content: "<article class='prose dark:prose-invert prose-teal max-w-none'> <p>Tailwind CSS has revolutionized the way we approach CSS. Its utility-first approach allows for rapid development and highly customizable designs. This post focuses on mastering layouts, covering Flexbox, Grid, and responsive design techniques.</p><h2>Flexbox</h2><p>Tailwind provides a rich set of Flexbox utilities. For example, creating a row of centered items is as simple as:</p><pre><code>&lt;div class=\"flex items-center justify-center\"&gt;...&lt;/div&gt;</code></pre><h2>CSS Grid</h2><p>For more complex two-dimensional layouts, CSS Grid is invaluable. Tailwind makes it easy:</p><pre><code>&lt;div class=\"grid grid-cols-3 gap-4\"&gt;...&lt;/div&gt;</code></pre><p>We'll explore practical examples and common patterns to make you a Tailwind layout pro.</p></article>",
     author: "Yasin Okumus",
     tags: ["Tailwind CSS", "CSS", "Frontend", "Web Design"],
-    imageUrl: "https://picsum.photos/seed/tailwindcss/800/400",
+    imageUrl: "https://placehold.co/800x400.png",
     imageAlt: "Tailwind CSS logo and abstract design",
     imageHint: "code design"
   },
@@ -95,7 +95,7 @@ export const placeholderBlogPosts: BlogPost[] = [
     content: "<article class='prose dark:prose-invert prose-teal max-w-none'><p>In today's competitive digital landscape, a functional application is not enough. Users expect seamless, intuitive, and enjoyable experiences. This is where UI (User Interface) and UX (User Experience) design come into play.</p><h2>What is UI?</h2><p>UI focuses on the visual aspects and interactivity of a product. It's about how the product looks and feels.</p><h2>What is UX?</h2><p>UX is about the overall experience a user has with the product. It encompasses usability, accessibility, and desirability.</p><p>Investing in good UI/UX can lead to increased user satisfaction, higher conversion rates, and a stronger brand reputation.</p></article>",
     author: "Yasin Okumus",
     tags: ["UI", "UX", "Web Design", "Product Development"],
-    imageUrl: "https://picsum.photos/seed/uiux/800/400",
+    imageUrl: "https://placehold.co/800x400.png",
     imageAlt: "Illustration of UI/UX design process",
     imageHint: "design interface"
   },
