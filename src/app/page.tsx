@@ -6,12 +6,7 @@ import Image from 'next/image';
 
 export default function HomePage() {
   const features = [
-    {
-      title: 'My CV',
-      description: 'Explore my professional background, skills, and experience.',
-      href: '/cv',
-      icon: FileText,
-    },
+    
     {
       title: 'Blog',
       description: 'Read my thoughts on technology, design, and personal growth.',
@@ -23,6 +18,12 @@ export default function HomePage() {
       description: 'Discover a curated collection of resources and tools I find valuable.',
       href: '/links',
       icon: LinkIcon,
+    },
+    {
+      title: 'My CV',
+      description: 'Explore my professional background, skills, and experience.',
+      href: '/cv',
+      icon: FileText,
     },
   ];
 
@@ -42,17 +43,17 @@ export default function HomePage() {
             Welcome to PersonaLink
           </h1>
           <p className="mb-8 text-lg text-muted-foreground sm:text-xl">
-            I&apos;m Yasin Okumus, a passionate developer and lifelong learner. This is my personal space to share my journey, insights, and favorite resources.
+            I&apos;m Yasin, a tired developer and lifelong learner. This is my personal space to share my journey, insights, and favorite resources.
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
-            <Button asChild size="lg">
-              <Link href="/cv">
-                View My CV <ArrowRight className="ml-2 h-5 w-5" />
+          <Button asChild size="lg">
+              <Link href="/blog">
+                Read My Blog <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="/blog">
-                Read My Blog
+              <Link href="/cv">
+                View My CV 
               </Link>
             </Button>
           </div>

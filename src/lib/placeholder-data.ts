@@ -1,5 +1,6 @@
+
 import type { CVData, LinkItem, BlogPost } from '@/types';
-import { Github, Linkedin, Twitter, BookOpen, Briefcase, Code, Coffee, Dribbble, ExternalLink, FileText, GraduationCap, HardDrive, Home, Link, Mail, Newspaper, Rss, User, Youtube } from 'lucide-react';
+import { Github, Linkedin, Twitter, BookOpen, Briefcase, Code, Coffee, Dribbble, ExternalLink, FileText, GraduationCap, HardDrive, Home, Link, Mail, Newspaper, Rss, User, Youtube, Zap } from 'lucide-react';
 
 export const placeholderCVData: CVData = {
   name: "Yasin Okumus",
@@ -51,6 +52,14 @@ export const placeholderLinks: LinkItem[] = [
   { id: "link6", title: "ShadCN UI", url: "https://ui.shadcn.com", description: "Beautifully designed components that you can copy and paste into your apps.", icon: HardDrive, category: "Resources" },
   { id: "link7", title: "Awwwards", url: "https://awwwards.com", description: "Inspirational websites.", icon: Dribbble, category: "Inspiration" },
   { id: "link8", title: "Indie Hackers", url: "https://indiehackers.com", description: "Work together to build profitable online businesses.", icon: Briefcase, category: "Community" },
+  { 
+    id: "link9", 
+    title: "1GB Freebyte 16TL", 
+    url: "https://www.r10.net/gsm-operatorleri/4421448-1-gb-internet-simdi-sadece-16-tl-her-hatta-gonderim-mevcut.html", 
+    description: "Buy Freebyte for 1GB to 16TL", 
+    icon: Zap, 
+    category: "Utilities" 
+  },
 ];
 
 export const placeholderBlogPosts: BlogPost[] = [
@@ -94,9 +103,9 @@ export const placeholderBlogPosts: BlogPost[] = [
 
 export const navItems = [
   { href: '/', label: 'Home', icon: Home },
-  { href: '/cv', label: 'CV', icon: FileText },
   { href: '/blog', label: 'Blog', icon: Newspaper },
   { href: '/links', label: 'Links', icon: Link },
+  { href: '/cv', label: 'CV', icon: FileText },
 ];
 
 export const socialLinks = [
@@ -105,3 +114,5 @@ export const socialLinks = [
   { href: "https://twitter.com/yasinokumus", label: "Twitter", icon: Twitter },
 ];
 
+
+    
